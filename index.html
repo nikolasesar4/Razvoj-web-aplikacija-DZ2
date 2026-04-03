@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fan Shop HSK Zrinjski Mostar - Sluzbena fan stranica">
+    <meta name="keywords" content="HSK Zrinjski, Mostar, Plemići, Fan Shop, RWA Zadaca">
+    <meta name="author" content="Nikola Sesar">
+    <title>Zrinjski Mostar - Službeni Fan Shop</title>
+
+    <style>
+        /* OSNOVNI STILOVI (Mobile-first pristup) */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #d11212; /* Crvena pozadina stranice */
+            color: #fff;
+        }
+
+        /* ZAGLAVLJE (HEADER) */
+        header {
+            background-color: #fff; /* Bijelo zaglavlje */
+            color: #d11212;
+            padding: 25px;
+            text-align: center;
+            border-bottom: 5px solid #d11212;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 15px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        /* NAVIGACIJA */
+        nav {
+            background-color: #fff;
+            padding: 15px;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+        }
+
+        nav h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            color: #d11212;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-bottom: 8px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        nav ul li a:hover {
+            color: #d11212;
+            text-decoration: underline;
+        }
+
+        /* TIJELO DOKUMENTA (MAIN BODY) */
+        main {
+            background-color: #d11212;
+            padding: 20px;
+            color: #fff;
+        }
+
+        main h2 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        main p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        /* TABLICE */
+        .okvir-tablice {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* PODNOZJE (FOOTER) */
+        footer {
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            padding: 15px;
+            font-size: 13px;
+            border-top: 5px solid #d11212;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        footer a {
+            color: #d11212;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* RESPONZIVNI DIZAJN (Za ekrane sire od 768px - Racunala) */
+        @media (min-width: 768px) {
+            .kontejner {
+                display: flex;
+                min-height: 450px;
+            }
+
+            nav {
+                flex: 1; /* Navigacija lijevo */
+                border-bottom: none;
+                border-right: 2px solid #ddd;
+            }
+
+            main {
+                flex: 3; /* Tijelo desno */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HŠK Zrinjski Mostar</h1>
+        <p>Službeni Fan Shop - Sve za prave Plemiće</p>
+    </header>
+
+    <div class="kontejner">
+        
+        <nav>
+            <h2>Kategorije</h2>
+            <ul>
+                <li><a href="index.html">Svi proizvodi</a></li>
+                <li><a href="#">Dresovi i šorcevi</a></li>
+                <li><a href="#">Šalovi i kape</a></li>
+                <li><a href="#">Rekviziti i suveniri</a></li>
+                <li><a href="https://fsre.sum.ba/" target="_blank">FSRE Novosti</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Dobrodošli u Fan Shop</h2>
+            <p>Hrvatski športski klub Zrinjski Mostar.</p>
+            
+            <p>U tablici ispod prikazan je kratak pregled najpopularnijih proizvoda iz naše ponude za tekuću sezonu.</p>
+
+            <div class="okvir-tablice">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Proizvod</th>
+                            <th>Opis</th>
+                            <th>Cijena (KM)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dres HŠK Zrinjski</td>
+                            <td>Službeni dres za sezonu 2023/24</td>
+                            <td>80.00</td>
+                        </tr>
+                        <tr>
+                            <td>Šal Zrinjski</td>
+                            <td>Navijački šal s lentom i grbom</td>
+                            <td>25.00</td>
+                        </tr>
+                        <tr>
+                            <td>Privjesak za ključeve</td>
+                            <td>Metalni privjesak s grbom kluba</td>
+                            <td>10.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Informacije o poslovnici</h2>
+            <p>U tablici ispod možete pronaći detaljne informacije o radnom vremenu našeg fizičkog fan shopa te kontakt podatke za sve upite.</p>
+            
+            <div class="okvir-tablice">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Podatak</th>
+                            <th>Detalji</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Radno vrijeme</td>
+                            <td>Pon - Pet: 09:00 - 20:00h | Sub: 09:00 - 15:00h</td>
+                        </tr>
+                        <tr>
+                            <td>Lokacija</td>
+                            <td>Brune Bušića 2, Mostar</td>
+                        </tr>
+                        <tr>
+                            <td>Telefon</td>
+                            <td>+387 36 XXX-XXX</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+    </div>
+
+    <footer>
+        <p>Autor dokumenta: <strong>Nikola Sesar</strong> (Indeks: 2342/RR)</p>
+        <p>Fan Shop HŠK Zrinjski - Mostar</p>
+        <p>Kontakt email: <a href="mailto:nikola.sesar4@fsre.sum.ba">nikola.sesar4@fsre.sum.ba</a></p>
+    </footer>
+
+</body>
+</html>
