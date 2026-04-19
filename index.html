@@ -9,7 +9,7 @@
     <title>Zrinjski Mostar - Službeni Fan Shop</title>
 
     <style>
-        /* OSNOVNI STILOVI */
+        /* OSNOVNI STILOVI (Mobile-first pristup) */
         * {
             box-sizing: border-box;
             margin: 0;
@@ -80,7 +80,7 @@
             text-decoration: underline;
         }
 
-        /* TIJELO DOKUMENTA */
+        /* TIJELO DOKUMENTA (MAIN BODY) */
         main {
             background-color: #d11212;
             padding: 20px;
@@ -151,7 +151,7 @@
             text-decoration: underline;
         }
 
-        /* RESPONZIVNI DIZAJN  */
+        /* RESPONZIVNI DIZAJN (Za ekrane sire od 768px - Racunala) */
         @media (min-width: 768px) {
             .kontejner {
                 display: flex;
@@ -159,19 +159,21 @@
             }
 
             nav {
-                flex: 1; 
+                flex: 1; /* Navigacija lijevo */
                 border-bottom: none;
                 border-right: 2px solid #ddd;
             }
 
             main {
-                flex: 3; 
+                flex: 3; /* Tijelo desno */
             }
         }
     </style>
 </head>
 <body>
-
+	
+	<p><a href="vjezba3.txt">Vježba 3 - HTTP Protokol (Izvještaj)</a></p>
+	
     <header>
         <h1>HŠK Zrinjski Mostar</h1>
         <p>Službeni Fan Shop - Sve za prave Plemiće</p>

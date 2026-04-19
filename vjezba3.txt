@@ -1,0 +1,56 @@
+IME I PREZIME: Nikola Sesar 2342/RR
+KOLEGIJ: Razvoj web aplikacija
+VJEŽBA: 3 - HTTP Protokol
+
+2.1 PRISTUP RESURSIMA
+
+a) Pokreće li vaš preglednik HTTP verziju 1.0 ili 1.1?
+Moj preglednik pokreće verziju 1.1.
+Dokaz: GET /hypertext/WWW/TheProject.html HTTP/1.1
+
+b) Koja je verzija HTTP-a poslužitelja pokrenuta kad pristupite sum.ba?
+Verzija je HTTP/1.1.
+Dokaz: Status Code: 200 OK (Remote Address: 212.39.111.33:443)
+
+c) Koje jezike vaš preglednik pokazuje da može prihvatiti na poslužitelju?
+Accept-Language: en-US,en;q=0.9
+
+d) Koja je IP adresa vašeg računala? A koja je IP adresa sum.ba?
+Moja IP adresa: 77.77.218.94
+IP adresa sum.ba: 212.39.111.33
+
+e) Kada je HTML datoteka koju dohvaćate zadnji put modificirana na poslužitelju?
+Zadnji put modifcirana: Thu, 03 Dec 1992 08:37:20 GMT
+Dokaz: last-modified: Thu, 03 Dec 1992 08:37:20 GMT
+
+f) Koliko se bajtova sadržaja vraća u vaš preglednik?
+Vraća se 2217 bajtova.
+Dokaz: content-length: 2217
+
+g) Koji softver/web poslužitelj poslužuje web stranicu na server?
+Stranicu poslužuje Apache server.
+Dokaz: server: Apache
+
+h) Koje jezike vaš web preglednik može prihvatiti?
+Accept-Language: en-US,en;q=0.9
+
+2.2 PRISTUP RAZLIČITIM RESURSIMA
+
+1. RESURS (PDF pravilnik)
+
+MIME format: application/pdf
+Veličina: 110461 bytes
+Verzija HTTP poslužitelja: Apache
+
+2. RESURS (PNG Logo Sumarum)
+
+MIME format: image/png
+Veličina: 15684 bytes
+Verzija HTTP poslužitelja: nginx/1.14.0 (Ubuntu)
+
+3. RESURS (TXT sha256sum - Kernel.org)
+
+Status: 404 Not Found - Datoteka ne postoji na toj lokaciji.
+MIME format: text/html - To je tip stranice koja prikazuje grešku.
+Veličina: 162 bytes
+Verzija HTTP poslužitelja: nginx
